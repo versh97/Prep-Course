@@ -14,3 +14,25 @@
     border-width: 30px;
     
 }
+
+body {
+    height: 800px;
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondo_r1_c1.jpg);
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div {
+    min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divClass div{
+    align-items: center;
+  justify-content: center;
+}
