@@ -38,13 +38,8 @@ div {
   text-align: center;
 }
 
-#div-img {
+.imgDiv {
     display: block;
     margin: auto;
   }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
