@@ -35,4 +35,5 @@ div {
 .divClass div{
     align-items: center;
   justify-content: center;
+  text-align: center;
 }
