@@ -37,3 +37,14 @@ div {
   justify-content: center;
   text-align: center;
 }
+
+#div-img {
+    display: block;
+    margin: auto;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
