@@ -1,0 +1,108 @@
+html {
+    background-color: rgb(220, 158, 245);
+    font-family: monospace;
+    font-size: larger;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.navegador {
+    color: rgb(0, 145, 96);
+}
+
+nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+nav {
+    font-weight: 400;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 19px;
+    padding: 0px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    
+}
+
+.skills{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.skills li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.skills li:before{
+    content: '';
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    background-image: url(imagen/proce.png.png);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#title {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 300%;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25%;
+    
+}
+
+/*imagen*/
+
+.imagen {
+    width: 250px;
+  height: 320px;
+  float: center;
+  border: 5px solid white;
+  display: table;
+  border-top: none;
+  padding-top: 0;
+}
+
+/*imagen*/
+
+body{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+#top{
+    height: 150px;
+}
+
